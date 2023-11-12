@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localstory.cdlw5k7uqati.ap-northeast-2.rds.amazonaws.com:3306/News?&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 6397zooOO!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: false
+      jdbc:
+        time_zone: Asia/Seoul
+      format_sql: true
+
+server:
+  port: 8081
